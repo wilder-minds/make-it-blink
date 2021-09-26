@@ -5,14 +5,23 @@
   <meta charset="UTF-8" />
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>make-it-blink again...</title>
 </head>
 
 <body>
-  <make-it-blink duration="1250ms" repeats="infinite" timer="linear">
-    <h1>Testing</h1>
-  </make-it-blink>
-  <script type="module" src="/src/main.ts"></script>
+  <h1>
+    <make-it-blink duration="1250ms" repeats="infinite" timer="linear">
+      Blinking Works Again!
+    </make-it-blink>
+  </h1>
+
+  <div>
+    <make-it-blink>
+      <button>Anything can Blink</button>
+    </make-it-blink>
+  </div>
+  <p>It works <make-it-blink>inline</make-it-blink> too!</p>
+  <script type="module" src="/main.ts"></script>
 </body>
 
 </html>

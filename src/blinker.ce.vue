@@ -1,12 +1,12 @@
 <template>
-  <div class="blinker-container"
+  <span class="blinker-container"
        :style='{ 
                   "animation-duration": duration, 
                   "animation-iteration-count": repeats, 
                   "animation-timing-function": timer 
                }'>
     <slot></slot>
-  </div>
+  </span>
 </template>
 
 <script lang="ts">

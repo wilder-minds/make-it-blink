@@ -4,6 +4,8 @@
 
 A Web Component that brings back the nostalgia of the blink tag.
 
+![Blinking](showit-gif)
+
 You can bring back the **blink** tag using this web component:
 
 ```HTML
