@@ -1,0 +1,15 @@
+{
+  "name": "make-it-blink",
+  "version": "1.0.1",
+  "repository": "https://github.com/wilder-minds/make-it-blink",
+  "homepage": "https://github.com/wilder-minds/make-it-blink#readme",
+  "description": "A simple package to add a new blink tag as a Web Component",
+  "author": { 
+    "email": "shawn@wildermuth.com", 
+    "name": "Shawn Wildermuth", 
+    "url": "http://wildermuth.com" 
+  },
+  "license": "MIT",
+  "main": "./dist/blinker.min.js",
+  "keywords": ["HTML5","JavaScript","blink","Web Components","Vite","Vue", "make-it-blink"]
+}

@@ -1,15 +1,10 @@
 {
-  "name": "make-it-blink",
-  "version": "0.0.1",
-  "repository": "wilder-minds/make-it-blink",
-  "license": "MIT",
-  "main": "./dest/main.esm.js",
-  "keywords": ["HTML5","JavaScript","blink","Web Components","Vite","Vue", "make-it-blink"],
+  "name": "make-it-blink-build",
   "scripts": {
     "dev": "vite",
     "build": "npm-run-all -l clean --parallel build:* ",
     "build:vite": "vue-tsc --noEmit && vite build",
-    "clean": "rimraf ../dest"
+    "clean": "rimraf ../dist"
   },
   "dependencies": {
     "vue": "^3.2.13"

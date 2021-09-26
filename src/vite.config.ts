@@ -10,15 +10,15 @@ export default defineConfig({
         {
           format: 'umd',
           name: "blinker",
-          entryFileNames: "[name].min.js",
-          dir: '../dest/'
+          entryFileNames: "blinker.min.js",
+          dir: '../dist/'
         },
         {
           format: 'esm',
           name: "blinker",
-          entryFileNames: "[name].esm.js",
-          chunkFileNames: "[name].esm.js",
-          dir: '../dest/'        
+          entryFileNames: "blinker.esm.js",
+          chunkFileNames: "blinker.vendor.esm.js",
+          dir: '../dist/'        
         }
       ]
     }
